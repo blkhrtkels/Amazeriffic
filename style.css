@@ -1,12 +1,13 @@
 body {
 	background: #f9e933;/*makes background yellow so footer is yellow*/
+
 }
 
 
 
 /*min-width means that if browser window is smaller than 855px
 the remaining part of the pg will be hidden*/
-}
+
 
 header, main, footer {
 	min-width: 855px; 
@@ -15,13 +16,82 @@ header, main, footer {
 header .container, main .container, footer .container {
 	max-width: 855px;
 	margin: auto;
+
 }
 
 header {
 	background: white;
+	overflow: auto;
+	/*height: 40px;*/
+}
+
+h1 {
+	float: left;
+	width: 570px;
+}
+
+header nav {
+	float: right;
+	width: 285px;
 }
 
 main {
 	background: white;
+	height: 508px;
+
 	
 }
+
+main .left {
+	float: left;
+}
+
+main .right {
+	float: right;
+
+}
+
+footer {
+	overflow: auto;
+}
+
+footer .container {
+	height: 176px;
+}
+
+
+
+footer .left {
+	float: left;
+	width: 570px;
+	height: 176px;
+
+}
+
+footer .right {
+	float: right;
+	width: 285px;
+	height: 176px;
+}
+
+footer .smleft {
+	width: 285px;
+	float: left;
+
+}
+
+footer .smright {
+	width: 142.50px; /*width is 285/2 from width of sitemap container*/
+	height: 64px;
+	float: right;
+	margin-top: -64px;
+
+
+
+}
+
+footer .sitemap {
+	height: 176px;
+}
+
+
