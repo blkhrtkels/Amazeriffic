@@ -1,0 +1,22 @@
+body {
+	background: #f9e933;/*makes background yellow so footer is yellow*/
+}
+
+
+
+/*min-width means that if browser window is smaller than 855px
+the remaining part of the pg will be hidden*/
+}
+
+header, main, footer {
+	min-width: 855px; 
+	}
+
+header {
+	background: white;
+}
+
+main {
+	background: white;
+	display: block;
+}
