@@ -14,7 +14,7 @@ header, main, footer {
 	min-width: 855px; 
 	}
 
-header .container, main .container, footer .container {
+header .container, main .container {
 	max-width: 855px;
 	margin: auto;
 
@@ -43,7 +43,7 @@ header nav {
 
 main {
 	background: white;
-	height: 508px;
+	height: 510px;
 
 	
 }
@@ -81,6 +81,7 @@ h4 {
 
 footer .container {
 	height: 176px;
+	width: 1000px;
 }
 
 
@@ -116,9 +117,14 @@ footer .smright {
 
 footer .sitemap {
 	height: 176px;
+    margin-left: 350px;
+
 }
 
 
+footer .contact {
+	margin-left: 378px;
+}
 
 
 p {
